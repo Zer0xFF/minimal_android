@@ -88,8 +88,7 @@
 
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
-  <!--project path="external/libtar" name="CyanogenMod/android_external_libtar" /-->
-  <!--project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" /-->
+  
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" />
@@ -157,7 +156,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp"/>
-  <project path="pdk" name="platform/pdk" remote="aosp"groups="pdk" />
+  <project path="pdk" name="platform/pdk" remote="aosp" groups="pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
 
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp"/>
